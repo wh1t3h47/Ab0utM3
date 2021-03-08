@@ -133,3 +133,7 @@ yarn-debug.log*
 
 # Local History for Visual Studio Code
 .history/
+
+pnpm-lock.yaml
+
+dist

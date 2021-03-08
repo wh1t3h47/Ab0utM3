@@ -1,0 +1,15 @@
+.styles {
+    &-header {
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    &-image {
+        $size: 90px;
+        width: $size;
+        height: $size;
+        margin: 20px 0 0 0;
+    }
+}
