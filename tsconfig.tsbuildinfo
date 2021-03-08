@@ -182,7 +182,7 @@
         "affectsGlobalScope": false
       },
       "../src/components/app/atom.tsx": {
-        "version": "c3b244f29afe3fb512910c65f7c5654881d16da34a02887b710de57da9545bbf",
+        "version": "449e73c6bae34803e60576234f5e70b125f4e4e52a98aeacbe98d43a9443d232",
         "signature": "48b69ac1b93eb4d810fdd159021f0c33171aa441f174201b2d3e8810aab75b1d",
         "affectsGlobalScope": false
       },
