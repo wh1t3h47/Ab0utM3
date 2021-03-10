@@ -12,7 +12,7 @@ const compressionPlugin = new CompressionPlugin({
     },
     threshold: 5120,
     minRatio: 0.3,
-    deleteOriginalAssets: true,
+    deleteOriginalAssets: false,
 });
 
 module.exports = {

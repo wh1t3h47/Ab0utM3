@@ -65,10 +65,7 @@ const sassRules = [sassModulesRule, sassRule];
 
 module.exports = {
     cssRule,
-    lessModulesRule,
-    lessRule,
     lessRules,
     sassModulesRule,
-    sassRule,
     sassRules,
 };
