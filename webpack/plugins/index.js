@@ -8,6 +8,7 @@ const pluginMiniCssExtract = require('./pluginMiniCssExtract');
 const pluginProvide = require('./pluginProvide');
 const pluginCompression = require('./pluginCompression');
 const pluginImageMinimizer = require('./pluginImageMinimizer');
+const pluginWatchIgnore = require('./pluginWatchIgnore');
 
 module.exports = {
     ...pluginCleanWebpack,
@@ -20,4 +21,5 @@ module.exports = {
     ...pluginProvide,
     ...pluginCompression,
     ...pluginImageMinimizer,
+    ...pluginWatchIgnore,
 };

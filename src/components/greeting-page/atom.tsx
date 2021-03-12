@@ -1,6 +1,6 @@
 import React, {CSSProperties} from 'react';
 
-import AtomImage from '@images/atom.svg';
+import AtomImage from '@images/atom/atom.svg';
 
 export default ({
     style,

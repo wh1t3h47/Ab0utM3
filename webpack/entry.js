@@ -3,8 +3,15 @@ const {join} = require('path');
 const {rootDir} = require('./utils/env');
 
 module.exports = {
-    main: [
-        join(rootDir, '/src/index.tsx'),
-        join(__dirname, './utils/cleanConsoleOnHMR.js'),
-    ],
+    index: {
+        import: join(rootDir, '/src/index.tsx'),
+        dependOn: 'shared',
+    },
+    cleanConsoleOnHMR: {
+        import: join(__dirname, './utils/cleanConsoleOnHMR.js'),
+        dependOn: 'shared',
+    },
+    shared: {
+        import: 'react',
+    },
 };

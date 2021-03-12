@@ -1,14 +1,11 @@
 import React, {Suspense, lazy} from 'react';
 
-import {stylesHeader, stylesImage} from './app.module.scss';
-import {stylesContainer} from './greetings.module.less';
+import FirstModalFallback from '../greeting-page/firstModal';
 
-const LazyAtom = lazy(() => import('./atom'));
+const LazyAtom = lazy(() => import('../greeting-page/atom'));
+
 export const App = (): React.ReactElement => (
-    <div className={stylesContainer}>
-        <div className={stylesHeader}>It werks!</div>
-        <Suspense fallback={'loading...'}>
-            <LazyAtom className={stylesImage} />
-        </Suspense>
+    <div>
+        <FirstModalFallback />
     </div>
 );
