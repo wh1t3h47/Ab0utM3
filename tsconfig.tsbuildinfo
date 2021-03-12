@@ -171,41 +171,6 @@
         "signature": "8483a29c17f7feb768a1f4333cf12ccf1e7341bd89dadcf407e012d5315228d0",
         "affectsGlobalScope": false
       },
-      "../src/components/app/app.module.less.d.ts": {
-        "version": "b11c43bbaaab08219ae03ea2ce0ef6671c4437d47ff96292fb0d5d28d0543246",
-        "signature": "b11c43bbaaab08219ae03ea2ce0ef6671c4437d47ff96292fb0d5d28d0543246",
-        "affectsGlobalScope": false
-      },
-      "../src/components/app/app.module.scss.d.ts": {
-        "version": "f91c37dad677f861f61b54425473992f7275622b1f66b3de4990e5701617e084",
-        "signature": "f91c37dad677f861f61b54425473992f7275622b1f66b3de4990e5701617e084",
-        "affectsGlobalScope": false
-      },
-      "../src/components/app/atom.tsx": {
-        "version": "449e73c6bae34803e60576234f5e70b125f4e4e52a98aeacbe98d43a9443d232",
-        "signature": "48b69ac1b93eb4d810fdd159021f0c33171aa441f174201b2d3e8810aab75b1d",
-        "affectsGlobalScope": false
-      },
-      "../src/components/app/app.tsx": {
-        "version": "cccaf8b6c8538d4649753582138f8abfba679a4286cd4bfffd84ced584223d33",
-        "signature": "246e2df78d1a6cc3560c29323934f487a746e366e2ea01f88f74848be12250f2",
-        "affectsGlobalScope": false
-      },
-      "../src/index.tsx": {
-        "version": "e50ac81f082499e0ac5dafd085241feab368e217ea1d7e525e69e10367d5970d",
-        "signature": "07d0161cd7d48991dc8539c87608fd3cb8fea31ec721b2d2e7a80c96bc1480bf",
-        "affectsGlobalScope": false
-      },
-      "../src/@types/declarations.d.ts": {
-        "version": "6ca0e1a20606bb34ca3e4961e1359e00f69a5ed4ab9cce9fc0ec390e183c8a8b",
-        "signature": "6ca0e1a20606bb34ca3e4961e1359e00f69a5ed4ab9cce9fc0ec390e183c8a8b",
-        "affectsGlobalScope": true
-      },
-      "../node_modules/@types/anymatch/index.d.ts": {
-        "version": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
-        "signature": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
-        "affectsGlobalScope": false
-      },
       "../node_modules/@types/classnames/types.d.ts": {
         "version": "a5a137bf9c1d3b49e2825690f43aba2b692ae27dabea94828847627e7c00fd3b",
         "signature": "a5a137bf9c1d3b49e2825690f43aba2b692ae27dabea94828847627e7c00fd3b",
@@ -214,6 +179,66 @@
       "../node_modules/@types/classnames/index.d.ts": {
         "version": "d22e870fef25a052477d24f34356470262881420c8b058c89d86392de6502c42",
         "signature": "d22e870fef25a052477d24f34356470262881420c8b058c89d86392de6502c42",
+        "affectsGlobalScope": false
+      },
+      "../src/components/profilePicture/profilePictureContainer.module.scss.d.ts": {
+        "version": "f734dfc041b74af8abb124e6155b5213319a33cd2efbb31105491ee3a1c9ef0a",
+        "signature": "f734dfc041b74af8abb124e6155b5213319a33cd2efbb31105491ee3a1c9ef0a",
+        "affectsGlobalScope": false
+      },
+      "../src/components/profilePicture/profilePicture.tsx": {
+        "version": "0d4104e6f5a335887572ab8f40c04cdf9bd886547596c860314a22a8535905ac",
+        "signature": "ba268291150582ae7d3ce76d35ffdf0888fea59a6c79119617f5876f7e810cd2",
+        "affectsGlobalScope": false
+      },
+      "../src/components/greeting-page/firstModal.module.less.d.ts": {
+        "version": "039dbe6307427aa7b7e1fb38ececf07d33c968cfa502c96373f4a8a1b0f1bb27",
+        "signature": "039dbe6307427aa7b7e1fb38ececf07d33c968cfa502c96373f4a8a1b0f1bb27",
+        "affectsGlobalScope": false
+      },
+      "../src/components/greeting-page/firstModalBackgroundLowRes.module.less.d.ts": {
+        "version": "679e2d5aac95188a2f63f971e3b0a17ac3bd7b35797b81d70ea52f682a3a14c2",
+        "signature": "679e2d5aac95188a2f63f971e3b0a17ac3bd7b35797b81d70ea52f682a3a14c2",
+        "affectsGlobalScope": false
+      },
+      "../src/components/greeting-page/firstModalBackground.module.less.d.ts": {
+        "version": "574c902165362c71ba50c21f41f6093eb95ce13d54d50b4ebc22c6d78d3583f4",
+        "signature": "574c902165362c71ba50c21f41f6093eb95ce13d54d50b4ebc22c6d78d3583f4",
+        "affectsGlobalScope": false
+      },
+      "../src/components/greeting-page/firstModal.tsx": {
+        "version": "11a6a29e11ab38aab98515db7acb0e0d6ca4070fb6df8c6a60b087a1d6500ef5",
+        "signature": "abc8e88d67c64dfd952cbfd857eba4146dbeb7ef3ac2eedc7cd82cb6dac9e129",
+        "affectsGlobalScope": false
+      },
+      "../src/components/greeting-page/atom.tsx": {
+        "version": "f9de111a19f0978890dfae94b25aa6fcc458f5fb4cba367b66e3b5ef5a8d590e",
+        "signature": "48b69ac1b93eb4d810fdd159021f0c33171aa441f174201b2d3e8810aab75b1d",
+        "affectsGlobalScope": false
+      },
+      "../src/components/app/app.tsx": {
+        "version": "a972f6d97e5ee304c88a3cc18f86799c6c17ee5e9e12a03fd7cf87079235af92",
+        "signature": "246e2df78d1a6cc3560c29323934f487a746e366e2ea01f88f74848be12250f2",
+        "affectsGlobalScope": false
+      },
+      "../src/index.tsx": {
+        "version": "19c44cf86c4dd5f3480902981f9c2feb963f299439dbfa06c227f65d41baab82",
+        "signature": "07d0161cd7d48991dc8539c87608fd3cb8fea31ec721b2d2e7a80c96bc1480bf",
+        "affectsGlobalScope": false
+      },
+      "../src/@types/declarations.d.ts": {
+        "version": "fb481b18d34b34d6befa5f54ef1373774c4f81ab2c1859c4f74f1b95d896ca00",
+        "signature": "fb481b18d34b34d6befa5f54ef1373774c4f81ab2c1859c4f74f1b95d896ca00",
+        "affectsGlobalScope": true
+      },
+      "../src/components/app/app.module.scss.d.ts": {
+        "version": "f91c37dad677f861f61b54425473992f7275622b1f66b3de4990e5701617e084",
+        "signature": "f91c37dad677f861f61b54425473992f7275622b1f66b3de4990e5701617e084",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/anymatch/index.d.ts": {
+        "version": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
+        "signature": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/eslint/helpers.d.ts": {
@@ -1005,13 +1030,25 @@
       ],
       "../src/components/app/app.tsx": [
         "../node_modules/@types/react/index.d.ts",
-        "../src/components/app/app.module.less.d.ts",
-        "../src/components/app/app.module.scss.d.ts",
-        "../src/components/app/atom.tsx"
+        "../src/components/greeting-page/atom.tsx",
+        "../src/components/greeting-page/firstModal.tsx"
       ],
-      "../src/components/app/atom.tsx": [
+      "../src/components/greeting-page/atom.tsx": [
         "../node_modules/@types/react/index.d.ts",
         "../src/@types/declarations.d.ts"
+      ],
+      "../src/components/greeting-page/firstModal.tsx": [
+        "../node_modules/@types/classnames/index.d.ts",
+        "../node_modules/@types/react/index.d.ts",
+        "../src/components/greeting-page/firstModal.module.less.d.ts",
+        "../src/components/greeting-page/firstModalBackground.module.less.d.ts",
+        "../src/components/greeting-page/firstModalBackgroundLowRes.module.less.d.ts",
+        "../src/components/profilePicture/profilePicture.tsx"
+      ],
+      "../src/components/profilePicture/profilePicture.tsx": [
+        "../node_modules/@types/react/index.d.ts",
+        "../src/@types/declarations.d.ts",
+        "../src/components/profilePicture/profilePictureContainer.module.scss.d.ts"
       ],
       "../src/index.tsx": [
         "../node_modules/@types/react-dom/index.d.ts",
@@ -1369,7 +1406,13 @@
       "../src/components/app/app.tsx": [
         "../node_modules/@types/react/index.d.ts"
       ],
-      "../src/components/app/atom.tsx": [
+      "../src/components/greeting-page/atom.tsx": [
+        "../node_modules/@types/react/index.d.ts"
+      ],
+      "../src/components/greeting-page/firstModal.tsx": [
+        "../node_modules/@types/react/index.d.ts"
+      ],
+      "../src/components/profilePicture/profilePicture.tsx": [
         "../node_modules/@types/react/index.d.ts"
       ],
       "../src/index.tsx": [
@@ -1494,10 +1537,15 @@
       "../node_modules/typescript/lib/lib.es5.d.ts",
       "../node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "../src/@types/declarations.d.ts",
-      "../src/components/app/app.module.less.d.ts",
       "../src/components/app/app.module.scss.d.ts",
       "../src/components/app/app.tsx",
-      "../src/components/app/atom.tsx",
+      "../src/components/greeting-page/atom.tsx",
+      "../src/components/greeting-page/firstModal.module.less.d.ts",
+      "../src/components/greeting-page/firstModal.tsx",
+      "../src/components/greeting-page/firstModalBackground.module.less.d.ts",
+      "../src/components/greeting-page/firstModalBackgroundLowRes.module.less.d.ts",
+      "../src/components/profilePicture/profilePicture.tsx",
+      "../src/components/profilePicture/profilePictureContainer.module.scss.d.ts",
       "../src/index.tsx"
     ]
   },
