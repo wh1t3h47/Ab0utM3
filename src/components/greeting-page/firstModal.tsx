@@ -1,10 +1,11 @@
 import classNames from 'classnames';
 import React, {ReactNode} from 'react';
 
+import ProfilePicture from '../profilePicture/profilePicture';
 import {stylesContainer} from './firstModal.module.less';
 
 class FirstModal extends React.PureComponent {
-    state = {
+    readonly state = {
         classNames: classNames([stylesContainer]),
     };
 
@@ -40,8 +41,11 @@ class FirstModal extends React.PureComponent {
     }
 
     render(): ReactNode {
-        console.log(this.state.classNames);
-        return <div className={this.state.classNames}>It werks!</div>;
+        return (
+            <div className={this.state.classNames}>
+                <ProfilePicture />
+            </div>
+        );
     }
 }
 

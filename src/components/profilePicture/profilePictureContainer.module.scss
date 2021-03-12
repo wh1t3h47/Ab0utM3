@@ -1,0 +1,41 @@
+$-my-skin-color: #c59e7d;
+$-profile-circle-size: 150px;
+$-profile-circle-padding: 20px;
+
+@mixin sameWidthAndHeight($-size) {
+    width: $-size;
+    height: $-size;
+}
+
+.fallback {
+    &-container {
+        background-color: $-my-skin-color;
+        border-radius: 50%;
+        @include sameWidthAndHeight($-profile-circle-size);
+
+        /* Necessary to make the image fit the container from behind it */
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        /* Necessary to make alt text fit the container */
+        padding: 20px;
+        img::first-line {
+            font-size: xx-large;
+        }
+        img {
+            line-height: 25px;
+            text-align: center;
+            word-break: break-word;
+            font-size: large;
+            font-variant-position: sub;
+            /* so the image doesn't look like a square inside a circle */
+            @include sameWidthAndHeight($-profile-circle-size
+              + $-profile-circle-padding * 2
+              + 5 /* image has a black line on the left, 5px removes it */
+            );
+        }
+    }
+}
