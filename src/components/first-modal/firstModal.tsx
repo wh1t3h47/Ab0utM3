@@ -1,8 +1,9 @@
 import classNames from 'classnames';
 import React, {ReactNode} from 'react';
 
+import {stylesContainer} from '@styles/components/firstModal/firstModal.module.less';
+
 import ProfilePicture from '../profilePicture/profilePicture';
-import {stylesContainer} from './firstModal.module.less';
 
 class FirstModal extends React.PureComponent {
     readonly state = {
@@ -19,7 +20,7 @@ class FirstModal extends React.PureComponent {
          * que o usuario veja uma imagem de fundo mais rapido.
          */
         const lowResolutionBackgroundImage = await import(
-            './firstModalBackgroundLowRes.module.less'
+            '@styles/components/firstModal/firstModalBackgroundLowRes.module.less'
         );
         this.setState({
             classNames: [
@@ -31,7 +32,7 @@ class FirstModal extends React.PureComponent {
         });
         /** Carrega a imagem final completa, de alta definicao. */
         const backgroundImage = await import(
-            './firstModalBackground.module.less'
+            '@styles/components/firstModal/firstModalBackground.module.less'
         );
         this.setState({
             classNames: [

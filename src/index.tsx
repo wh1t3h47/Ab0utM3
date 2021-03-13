@@ -1,5 +1,4 @@
-import '@styles/styles.less';
-import '@styles/styles.scss';
+import '@styles/base/styles.scss';
 
 import React from 'react';
 import ReactDom from 'react-dom';

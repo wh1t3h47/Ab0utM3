@@ -1,8 +1,8 @@
-import React, {Suspense, lazy} from 'react';
+import React from 'react';
 
-import FirstModalFallback from '../greeting-page/firstModal';
+import FirstModalFallback from '../first-modal/firstModal';
 
-const LazyAtom = lazy(() => import('../greeting-page/atom'));
+// const LazyAtom = lazy(() => import('../first-modal/atom'));
 
 export const App = (): React.ReactElement => (
     <div>

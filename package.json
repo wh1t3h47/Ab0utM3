@@ -21,6 +21,7 @@
         "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
         "profile": "cross-env NODE_ENV=production webpack --profile --json --config webpack.config.js > ./dist/profile.json && webpack-bundle-analyzer ./dist/profile.json",
         "start": "cross-env WEBPACK_IS_DEV_SERVER=true NODE_ENV=development webpack serve --config webpack.config.js",
+        "serve": "yarn start",
         "lint": "eslint --fix ./src",
         "predeploy": "yarn build",
         "deploy": "gh-pages -d dist"
