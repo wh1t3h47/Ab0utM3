@@ -1,13 +1,13 @@
 import classNames from 'classnames';
-import React, {ReactNode} from 'react';
+import React from 'react';
 
-import {stylesContainer} from '@styles/components/firstModal/firstModal.module.less';
+import {stylesBackgroundFallback} from '@styles/components/homePage/presentation.module.scss';
 
 import ProfilePicture from '../profilePicture/profilePicture';
 
-class FirstModal extends React.PureComponent {
+class Presentation extends React.PureComponent {
     readonly state = {
-        classNames: classNames([stylesContainer]),
+        classNames: classNames([stylesBackgroundFallback]),
     };
 
     /** carrega a imagem de fundo depois que os estilos criticos de css
@@ -20,28 +20,29 @@ class FirstModal extends React.PureComponent {
          * que o usuario veja uma imagem de fundo mais rapido.
          */
         const lowResolutionBackgroundImage = await import(
-            '@styles/components/firstModal/firstModalBackgroundLowRes.module.less'
+            '@styles/components/homePage/presentationBackgroundLowRes.module.less'
         );
         this.setState({
             classNames: [
                 classNames(
                     criticalStyles,
-                    lowResolutionBackgroundImage.stylesContainer,
+                    lowResolutionBackgroundImage.stylesBackground,
                 ),
             ],
         });
+
         /** Carrega a imagem final completa, de alta definicao. */
         const backgroundImage = await import(
-            '@styles/components/firstModal/firstModalBackground.module.less'
+            '@styles/components/homePage/presentationBackground.module.less'
         );
         this.setState({
             classNames: [
-                classNames(criticalStyles, backgroundImage.stylesContainer),
+                classNames(criticalStyles, backgroundImage.stylesBackground),
             ],
         });
     }
 
-    render(): ReactNode {
+    render(): React.ReactNode {
         return (
             <div className={this.state.classNames}>
                 <ProfilePicture />
@@ -50,4 +51,4 @@ class FirstModal extends React.PureComponent {
     }
 }
 
-export default FirstModal;
+export default Presentation;

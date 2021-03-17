@@ -1,0 +1,13 @@
+@import "@styles/mixins/geometry.scss";
+@import "@styles/variables/colors.sass";
+@import "@styles/variables/sizes.sass";
+
+.styles {
+    &-background-fallback {
+        position: absolute;
+        @include sameWidthAndHeight(100%);
+        display: grid;
+        background-color: $-book-color;
+        top: $-second-modal-offset;
+    }
+}

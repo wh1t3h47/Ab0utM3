@@ -18,15 +18,15 @@
 
         /* Necessary to make alt text fit the container. */
         padding: 20px;
-        img::first-line {
-            font-size: xx-large;
-        }
+        // img::first-line {
+        //     font-size: xx-large;
+        // }
         img {
-            line-height: 25px;
-            text-align: center;
-            word-break: break-word;
-            font-size: large;
-            font-variant-position: sub;
+            // line-height: 25px;
+            // text-align: center;
+            // word-break: break-word;
+            // font-size: large;
+            // font-variant-position: sub;
             /* so the image doesn't look like a square inside a circle. */
             @include sameWidthAndHeight($-profile-circle-size
               + $-profile-circle-padding * 2

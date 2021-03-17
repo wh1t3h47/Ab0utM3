@@ -1,8 +1,9 @@
+@import "@styles/mixins/geometry.scss";
+
 .styles {
-    &-container {
+    &-background-fallback {
         position: absolute;
-        width: 100%;
-        height: 100%;
+        @include sameWidthAndHeight(100%);
         display: flex;
         flex-direction: column;
         align-content: center;

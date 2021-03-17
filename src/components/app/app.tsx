@@ -1,11 +1,13 @@
 import React from 'react';
 
-import FirstModalFallback from '../first-modal/firstModal';
+import Presentation from '../homePage/presentation';
+import Skills from '../homePage/skills';
 
 // const LazyAtom = lazy(() => import('../first-modal/atom'));
 
 export const App = (): React.ReactElement => (
     <div>
-        <FirstModalFallback />
+        <Presentation />
+        <Skills />
     </div>
 );
