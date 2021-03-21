@@ -2,8 +2,8 @@
   "program": {
     "fileInfos": {
       "../node_modules/typescript/lib/lib.es5.d.ts": {
-        "version": "c9a1f03d6ba0fe3c871eb0dd81622e78fbb61ade70878b34d48a341a690c59e9",
-        "signature": "c9a1f03d6ba0fe3c871eb0dd81622e78fbb61ade70878b34d48a341a690c59e9",
+        "version": "b3584bc5798ed422ce2516df360ffa9cf2d80b5eae852867db9ba3743145f895",
+        "signature": "b3584bc5798ed422ce2516df360ffa9cf2d80b5eae852867db9ba3743145f895",
         "affectsGlobalScope": true
       },
       "../node_modules/typescript/lib/lib.es2015.d.ts": {
@@ -27,8 +27,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/typescript/lib/lib.dom.d.ts": {
-        "version": "38130cdd16bd2318b9362f9d60dd9670f7e38708bb6131cf11fc78a41b2c34a0",
-        "signature": "38130cdd16bd2318b9362f9d60dd9670f7e38708bb6131cf11fc78a41b2c34a0",
+        "version": "feeeb1dd8a80fb76be42b0426e8f3ffa9bdef3c2f3c12c147e7660b1c5ba8b3b",
+        "signature": "feeeb1dd8a80fb76be42b0426e8f3ffa9bdef3c2f3c12c147e7660b1c5ba8b3b",
         "affectsGlobalScope": true
       },
       "../node_modules/typescript/lib/lib.es2015.core.d.ts": {
@@ -47,23 +47,23 @@
         "affectsGlobalScope": true
       },
       "../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
-        "version": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
-        "signature": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "version": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "signature": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
         "affectsGlobalScope": true
       },
       "../node_modules/typescript/lib/lib.es2015.promise.d.ts": {
-        "version": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
-        "signature": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "version": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "signature": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
         "affectsGlobalScope": true
       },
       "../node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
-        "version": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
-        "signature": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+        "version": "810627a82ac06fb5166da5ada4159c4ec11978dfbb0805fe804c86406dab8357",
+        "signature": "810627a82ac06fb5166da5ada4159c4ec11978dfbb0805fe804c86406dab8357",
         "affectsGlobalScope": true
       },
       "../node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
-        "version": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
-        "signature": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "version": "62d80405c46c3f4c527ee657ae9d43fda65a0bf582292429aea1e69144a522a6",
+        "signature": "62d80405c46c3f4c527ee657ae9d43fda65a0bf582292429aea1e69144a522a6",
         "affectsGlobalScope": true
       },
       "../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
@@ -72,8 +72,8 @@
         "affectsGlobalScope": true
       },
       "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
-        "version": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
-        "signature": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "version": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "signature": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
         "affectsGlobalScope": true
       },
       "../node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
@@ -87,8 +87,8 @@
         "affectsGlobalScope": true
       },
       "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
-        "version": "b5e4c2d67aa844ed503b29cd4ca2ede1a229ac7fe874613b2c996fa9c581a25f",
-        "signature": "b5e4c2d67aa844ed503b29cd4ca2ede1a229ac7fe874613b2c996fa9c581a25f",
+        "version": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "signature": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
         "affectsGlobalScope": true
       },
       "../node_modules/typescript/lib/lib.es2017.string.d.ts": {
@@ -137,8 +137,8 @@
         "affectsGlobalScope": true
       },
       "../node_modules/typescript/lib/lib.esnext.intl.d.ts": {
-        "version": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
-        "signature": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
+        "version": "506b80b9951c9381dc5f11897b31fca5e2a65731d96ddefa19687fbc26b23c6e",
+        "signature": "506b80b9951c9381dc5f11897b31fca5e2a65731d96ddefa19687fbc26b23c6e",
         "affectsGlobalScope": true
       },
       "../node_modules/@types/react/global.d.ts": {
@@ -162,13 +162,13 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/react/index.d.ts": {
-        "version": "c90c1b049ca569edcad1f55e33bc9bd3c195a88957493f9a3a0f3e67f0b54316",
-        "signature": "c90c1b049ca569edcad1f55e33bc9bd3c195a88957493f9a3a0f3e67f0b54316",
+        "version": "5d708266116e778d6a4140fca2ac36f71d99b4c68bc3be63a45ba8bf5ade5348",
+        "signature": "5d708266116e778d6a4140fca2ac36f71d99b4c68bc3be63a45ba8bf5ade5348",
         "affectsGlobalScope": true
       },
       "../node_modules/@types/react-dom/index.d.ts": {
-        "version": "8483a29c17f7feb768a1f4333cf12ccf1e7341bd89dadcf407e012d5315228d0",
-        "signature": "8483a29c17f7feb768a1f4333cf12ccf1e7341bd89dadcf407e012d5315228d0",
+        "version": "5e7837730e7ef63981cbd8d878388c4b37acc70dc3190881e230a23e3b4f9514",
+        "signature": "5e7837730e7ef63981cbd8d878388c4b37acc70dc3190881e230a23e3b4f9514",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/classnames/types.d.ts": {
@@ -181,49 +181,64 @@
         "signature": "d22e870fef25a052477d24f34356470262881420c8b058c89d86392de6502c42",
         "affectsGlobalScope": false
       },
-      "../src/components/profilePicture/profilePictureContainer.module.scss.d.ts": {
+      "../src/styles/components/homePage/presentation.module.scss.d.ts": {
+        "version": "fc7e3e796644c9b5ddced5bcb9dd337912486ce78904676b44a0be5069e24bb3",
+        "signature": "fc7e3e796644c9b5ddced5bcb9dd337912486ce78904676b44a0be5069e24bb3",
+        "affectsGlobalScope": false
+      },
+      "../src/styles/components/profilePicture/profilePictureContainer.module.scss.d.ts": {
         "version": "f734dfc041b74af8abb124e6155b5213319a33cd2efbb31105491ee3a1c9ef0a",
         "signature": "f734dfc041b74af8abb124e6155b5213319a33cd2efbb31105491ee3a1c9ef0a",
         "affectsGlobalScope": false
       },
       "../src/components/profilePicture/profilePicture.tsx": {
-        "version": "0d4104e6f5a335887572ab8f40c04cdf9bd886547596c860314a22a8535905ac",
-        "signature": "ba268291150582ae7d3ce76d35ffdf0888fea59a6c79119617f5876f7e810cd2",
+        "version": "52947f915ec48976f1d08acc48732dc3c8771198f4e441e28c7c143e458a6a64",
+        "signature": "ecc714f8e5ff29d3f187d1a9deac31ecf00a0a3c94cf8d48945fc2faeb2527d7",
         "affectsGlobalScope": false
       },
-      "../src/components/greeting-page/firstModal.module.less.d.ts": {
-        "version": "039dbe6307427aa7b7e1fb38ececf07d33c968cfa502c96373f4a8a1b0f1bb27",
-        "signature": "039dbe6307427aa7b7e1fb38ececf07d33c968cfa502c96373f4a8a1b0f1bb27",
+      "../src/styles/components/homePage/presentationBackgroundLowRes.module.less.d.ts": {
+        "version": "c0da3dc171ac7c4a8395c12c9767e26061bd4d01ebc2802fc5f9dc613502a798",
+        "signature": "c0da3dc171ac7c4a8395c12c9767e26061bd4d01ebc2802fc5f9dc613502a798",
         "affectsGlobalScope": false
       },
-      "../src/components/greeting-page/firstModalBackgroundLowRes.module.less.d.ts": {
-        "version": "679e2d5aac95188a2f63f971e3b0a17ac3bd7b35797b81d70ea52f682a3a14c2",
-        "signature": "679e2d5aac95188a2f63f971e3b0a17ac3bd7b35797b81d70ea52f682a3a14c2",
+      "../src/styles/components/homePage/presentationBackground.module.less.d.ts": {
+        "version": "03de0af51f18a848f346cc52399d03f3538c83d488701aa44727a993e870b1e4",
+        "signature": "03de0af51f18a848f346cc52399d03f3538c83d488701aa44727a993e870b1e4",
         "affectsGlobalScope": false
       },
-      "../src/components/greeting-page/firstModalBackground.module.less.d.ts": {
-        "version": "574c902165362c71ba50c21f41f6093eb95ce13d54d50b4ebc22c6d78d3583f4",
-        "signature": "574c902165362c71ba50c21f41f6093eb95ce13d54d50b4ebc22c6d78d3583f4",
+      "../src/components/homePage/presentation.tsx": {
+        "version": "c402360031b6021afedfe7cc0b5c2c5b15683c6479e0ec3be29cbdbbbbd3069f",
+        "signature": "918468e037e3ae88ff34621e3146562dea1de8c2e8b2752a31b8e3ce3fc6138d",
         "affectsGlobalScope": false
       },
-      "../src/components/greeting-page/firstModal.tsx": {
-        "version": "11a6a29e11ab38aab98515db7acb0e0d6ca4070fb6df8c6a60b087a1d6500ef5",
-        "signature": "abc8e88d67c64dfd952cbfd857eba4146dbeb7ef3ac2eedc7cd82cb6dac9e129",
+      "../src/styles/components/homePage/skills.module.scss.d.ts": {
+        "version": "e3e8d0b0f7ce5d18b0ef7e17c7de27fdb043f3ea468714955d9b1dcf52298a2b",
+        "signature": "e3e8d0b0f7ce5d18b0ef7e17c7de27fdb043f3ea468714955d9b1dcf52298a2b",
         "affectsGlobalScope": false
       },
-      "../src/components/greeting-page/atom.tsx": {
-        "version": "f9de111a19f0978890dfae94b25aa6fcc458f5fb4cba367b66e3b5ef5a8d590e",
-        "signature": "48b69ac1b93eb4d810fdd159021f0c33171aa441f174201b2d3e8810aab75b1d",
+      "../src/components/homePage/lazyBackground.tsx": {
+        "version": "344257eb027b5eeb87ecd2fe93be1825c879d124404f81fc335609d0af21cb96",
+        "signature": "c0f0de2c39d0aae413e6f64101143d244148b45093939c8fb087fcb935ec243b",
+        "affectsGlobalScope": false
+      },
+      "../src/styles/components/homePage/skillsBackground.module.less.d.ts": {
+        "version": "5e1fd8268d1581492087f9b0741d762bee663d5408833a8bc7a659d1d18dc556",
+        "signature": "5e1fd8268d1581492087f9b0741d762bee663d5408833a8bc7a659d1d18dc556",
+        "affectsGlobalScope": false
+      },
+      "../src/components/homePage/skills.tsx": {
+        "version": "2b4499f360d3040ffb654958ad0132b2c9ad39cc74b87a3d3cf303a919f24b66",
+        "signature": "80f8fd3360703ecbbca7f7bfec7cd168d00c121380249f91ef3a105233bd0dee",
         "affectsGlobalScope": false
       },
       "../src/components/app/app.tsx": {
-        "version": "a972f6d97e5ee304c88a3cc18f86799c6c17ee5e9e12a03fd7cf87079235af92",
+        "version": "e7a314cc68b98c62eaa7de4e250e311728cc8910347c905a923ac5ac2092d22a",
         "signature": "246e2df78d1a6cc3560c29323934f487a746e366e2ea01f88f74848be12250f2",
         "affectsGlobalScope": false
       },
       "../src/index.tsx": {
-        "version": "19c44cf86c4dd5f3480902981f9c2feb963f299439dbfa06c227f65d41baab82",
-        "signature": "07d0161cd7d48991dc8539c87608fd3cb8fea31ec721b2d2e7a80c96bc1480bf",
+        "version": "a3793ca7288932bd488b05cd464e239abd89172d186ddd8c2cba1f925c308cdc",
+        "signature": "3289d5ebd7ce260b5b8e605eea868f65851394c8613baacbf2e22990c6c4cc8e",
         "affectsGlobalScope": false
       },
       "../src/@types/declarations.d.ts": {
@@ -231,9 +246,19 @@
         "signature": "fb481b18d34b34d6befa5f54ef1373774c4f81ab2c1859c4f74f1b95d896ca00",
         "affectsGlobalScope": true
       },
-      "../src/components/app/app.module.scss.d.ts": {
-        "version": "f91c37dad677f861f61b54425473992f7275622b1f66b3de4990e5701617e084",
-        "signature": "f91c37dad677f861f61b54425473992f7275622b1f66b3de4990e5701617e084",
+      "../src/components/atom/atom.tsx": {
+        "version": "f9de111a19f0978890dfae94b25aa6fcc458f5fb4cba367b66e3b5ef5a8d590e",
+        "signature": "48b69ac1b93eb4d810fdd159021f0c33171aa441f174201b2d3e8810aab75b1d",
+        "affectsGlobalScope": false
+      },
+      "../src/components/homePage/certificates.tsx": {
+        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": false
+      },
+      "../src/components/homePage/projects.tsx": {
+        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/anymatch/index.d.ts": {
@@ -282,8 +307,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/child_process.d.ts": {
-        "version": "89a3409a743c2a408d02bd68255a61d8416225b76c2c66d8e2e74dad3e00bc5d",
-        "signature": "89a3409a743c2a408d02bd68255a61d8416225b76c2c66d8e2e74dad3e00bc5d",
+        "version": "674bedbfd2004e233e2a266a3d2286e524f0d58787a98522d834d6ccda1d215a",
+        "signature": "674bedbfd2004e233e2a266a3d2286e524f0d58787a98522d834d6ccda1d215a",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/cluster.d.ts": {
@@ -342,8 +367,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/http2.d.ts": {
-        "version": "4c260129d649d69f0608cd123e7016e61364b553a5ca2de9b66b0398594959cf",
-        "signature": "4c260129d649d69f0608cd123e7016e61364b553a5ca2de9b66b0398594959cf",
+        "version": "9aff68f1b847b846d3d50a58c9f8f99389bedd0258d1b1c201f11b97ecfd36f8",
+        "signature": "9aff68f1b847b846d3d50a58c9f8f99389bedd0258d1b1c201f11b97ecfd36f8",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/https.d.ts": {
@@ -466,11 +491,6 @@
         "signature": "515ef1d99036ff0dafa5bf738e02222edea94e0d97a0aa0ff277ac5e96b57977",
         "affectsGlobalScope": false
       },
-      "../node_modules/@types/node/ts3.4/base.d.ts": {
-        "version": "d44028ae0127eb3e9fcfa5f55a8b81d64775ce15aca1020fe25c511bbb055834",
-        "signature": "d44028ae0127eb3e9fcfa5f55a8b81d64775ce15aca1020fe25c511bbb055834",
-        "affectsGlobalScope": false
-      },
       "../node_modules/@types/node/globals.global.d.ts": {
         "version": "2708349d5a11a5c2e5f3a0765259ebe7ee00cdcc8161cb9990cb4910328442a1",
         "signature": "2708349d5a11a5c2e5f3a0765259ebe7ee00cdcc8161cb9990cb4910328442a1",
@@ -482,8 +502,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/ts3.6/base.d.ts": {
-        "version": "ad1ae5ae98eceb9af99061e83e867b9897d267aebc8f3b938c9424deabadf4bb",
-        "signature": "ad1ae5ae98eceb9af99061e83e867b9897d267aebc8f3b938c9424deabadf4bb",
+        "version": "ae68a04912ee5a0f589276f9ec60b095f8c40d48128a4575b3fdd7d93806931c",
+        "signature": "ae68a04912ee5a0f589276f9ec60b095f8c40d48128a4575b3fdd7d93806931c",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/assert.d.ts": {
@@ -680,6 +700,7 @@
       "skipLibCheck": true,
       "inlineSourceMap": false,
       "declarationMap": false,
+      "pathsBasePath": "/home/dev1337/Ab0utM3",
       "configFilePath": "../tsconfig.json"
     },
     "referencedMap": {
@@ -851,7 +872,7 @@
       "../node_modules/@types/node/trace_events.d.ts": [
         "../node_modules/@types/node/trace_events.d.ts"
       ],
-      "../node_modules/@types/node/ts3.4/base.d.ts": [
+      "../node_modules/@types/node/ts3.6/base.d.ts": [
         "../node_modules/@types/node/async_hooks.d.ts",
         "../node_modules/@types/node/buffer.d.ts",
         "../node_modules/@types/node/child_process.d.ts",
@@ -866,6 +887,7 @@
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/fs/promises.d.ts",
         "../node_modules/@types/node/globals.d.ts",
+        "../node_modules/@types/node/globals.global.d.ts",
         "../node_modules/@types/node/http.d.ts",
         "../node_modules/@types/node/http2.d.ts",
         "../node_modules/@types/node/https.d.ts",
@@ -890,13 +912,9 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/v8.d.ts",
         "../node_modules/@types/node/vm.d.ts",
+        "../node_modules/@types/node/wasi.d.ts",
         "../node_modules/@types/node/worker_threads.d.ts",
         "../node_modules/@types/node/zlib.d.ts"
-      ],
-      "../node_modules/@types/node/ts3.6/base.d.ts": [
-        "../node_modules/@types/node/globals.global.d.ts",
-        "../node_modules/@types/node/ts3.4/base.d.ts",
-        "../node_modules/@types/node/wasi.d.ts"
       ],
       "../node_modules/@types/node/tty.d.ts": [
         "../node_modules/@types/node/net.d.ts",
@@ -1030,30 +1048,39 @@
       ],
       "../src/components/app/app.tsx": [
         "../node_modules/@types/react/index.d.ts",
-        "../src/components/greeting-page/atom.tsx",
-        "../src/components/greeting-page/firstModal.tsx"
+        "../src/components/homePage/presentation.tsx",
+        "../src/components/homePage/skills.tsx"
       ],
-      "../src/components/greeting-page/atom.tsx": [
+      "../src/components/atom/atom.tsx": [
         "../node_modules/@types/react/index.d.ts",
         "../src/@types/declarations.d.ts"
       ],
-      "../src/components/greeting-page/firstModal.tsx": [
+      "../src/components/homePage/lazyBackground.tsx": [
+        "../node_modules/@types/classnames/index.d.ts",
+        "../node_modules/@types/react/index.d.ts"
+      ],
+      "../src/components/homePage/presentation.tsx": [
         "../node_modules/@types/classnames/index.d.ts",
         "../node_modules/@types/react/index.d.ts",
-        "../src/components/greeting-page/firstModal.module.less.d.ts",
-        "../src/components/greeting-page/firstModalBackground.module.less.d.ts",
-        "../src/components/greeting-page/firstModalBackgroundLowRes.module.less.d.ts",
-        "../src/components/profilePicture/profilePicture.tsx"
+        "../src/components/profilePicture/profilePicture.tsx",
+        "../src/styles/components/homePage/presentation.module.scss.d.ts",
+        "../src/styles/components/homePage/presentationBackground.module.less.d.ts",
+        "../src/styles/components/homePage/presentationBackgroundLowRes.module.less.d.ts"
+      ],
+      "../src/components/homePage/skills.tsx": [
+        "../node_modules/@types/react/index.d.ts",
+        "../src/components/homePage/lazyBackground.tsx",
+        "../src/styles/components/homePage/skills.module.scss.d.ts",
+        "../src/styles/components/homePage/skillsBackground.module.less.d.ts"
       ],
       "../src/components/profilePicture/profilePicture.tsx": [
         "../node_modules/@types/react/index.d.ts",
         "../src/@types/declarations.d.ts",
-        "../src/components/profilePicture/profilePictureContainer.module.scss.d.ts"
+        "../src/styles/components/profilePicture/profilePictureContainer.module.scss.d.ts"
       ],
       "../src/index.tsx": [
         "../node_modules/@types/react-dom/index.d.ts",
         "../node_modules/@types/react/index.d.ts",
-        "../src/@types/declarations.d.ts",
         "../src/components/app/app.tsx"
       ]
     },
@@ -1226,7 +1253,7 @@
       "../node_modules/@types/node/trace_events.d.ts": [
         "../node_modules/@types/node/trace_events.d.ts"
       ],
-      "../node_modules/@types/node/ts3.4/base.d.ts": [
+      "../node_modules/@types/node/ts3.6/base.d.ts": [
         "../node_modules/@types/node/async_hooks.d.ts",
         "../node_modules/@types/node/buffer.d.ts",
         "../node_modules/@types/node/child_process.d.ts",
@@ -1241,6 +1268,7 @@
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/fs/promises.d.ts",
         "../node_modules/@types/node/globals.d.ts",
+        "../node_modules/@types/node/globals.global.d.ts",
         "../node_modules/@types/node/http.d.ts",
         "../node_modules/@types/node/http2.d.ts",
         "../node_modules/@types/node/https.d.ts",
@@ -1265,13 +1293,9 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/v8.d.ts",
         "../node_modules/@types/node/vm.d.ts",
+        "../node_modules/@types/node/wasi.d.ts",
         "../node_modules/@types/node/worker_threads.d.ts",
         "../node_modules/@types/node/zlib.d.ts"
-      ],
-      "../node_modules/@types/node/ts3.6/base.d.ts": [
-        "../node_modules/@types/node/globals.global.d.ts",
-        "../node_modules/@types/node/ts3.4/base.d.ts",
-        "../node_modules/@types/node/wasi.d.ts"
       ],
       "../node_modules/@types/node/tty.d.ts": [
         "../node_modules/@types/node/net.d.ts",
@@ -1406,17 +1430,20 @@
       "../src/components/app/app.tsx": [
         "../node_modules/@types/react/index.d.ts"
       ],
-      "../src/components/greeting-page/atom.tsx": [
+      "../src/components/atom/atom.tsx": [
         "../node_modules/@types/react/index.d.ts"
       ],
-      "../src/components/greeting-page/firstModal.tsx": [
+      "../src/components/homePage/lazyBackground.tsx": [
+        "../node_modules/@types/react/index.d.ts"
+      ],
+      "../src/components/homePage/presentation.tsx": [
+        "../node_modules/@types/react/index.d.ts"
+      ],
+      "../src/components/homePage/skills.tsx": [
         "../node_modules/@types/react/index.d.ts"
       ],
       "../src/components/profilePicture/profilePicture.tsx": [
         "../node_modules/@types/react/index.d.ts"
-      ],
-      "../src/index.tsx": [
-        "../src/@types/declarations.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -1469,7 +1496,6 @@
       "../node_modules/@types/node/timers.d.ts",
       "../node_modules/@types/node/tls.d.ts",
       "../node_modules/@types/node/trace_events.d.ts",
-      "../node_modules/@types/node/ts3.4/base.d.ts",
       "../node_modules/@types/node/ts3.6/base.d.ts",
       "../node_modules/@types/node/tty.d.ts",
       "../node_modules/@types/node/url.d.ts",
@@ -1537,17 +1563,22 @@
       "../node_modules/typescript/lib/lib.es5.d.ts",
       "../node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "../src/@types/declarations.d.ts",
-      "../src/components/app/app.module.scss.d.ts",
       "../src/components/app/app.tsx",
-      "../src/components/greeting-page/atom.tsx",
-      "../src/components/greeting-page/firstModal.module.less.d.ts",
-      "../src/components/greeting-page/firstModal.tsx",
-      "../src/components/greeting-page/firstModalBackground.module.less.d.ts",
-      "../src/components/greeting-page/firstModalBackgroundLowRes.module.less.d.ts",
+      "../src/components/atom/atom.tsx",
+      "../src/components/homePage/certificates.tsx",
+      "../src/components/homePage/lazyBackground.tsx",
+      "../src/components/homePage/presentation.tsx",
+      "../src/components/homePage/projects.tsx",
+      "../src/components/homePage/skills.tsx",
       "../src/components/profilePicture/profilePicture.tsx",
-      "../src/components/profilePicture/profilePictureContainer.module.scss.d.ts",
-      "../src/index.tsx"
+      "../src/index.tsx",
+      "../src/styles/components/homePage/presentation.module.scss.d.ts",
+      "../src/styles/components/homePage/presentationBackground.module.less.d.ts",
+      "../src/styles/components/homePage/presentationBackgroundLowRes.module.less.d.ts",
+      "../src/styles/components/homePage/skills.module.scss.d.ts",
+      "../src/styles/components/homePage/skillsBackground.module.less.d.ts",
+      "../src/styles/components/profilePicture/profilePictureContainer.module.scss.d.ts"
     ]
   },
-  "version": "4.0.7"
+  "version": "4.2.3"
 }
