@@ -9,6 +9,8 @@ const pluginProvide = require('./pluginProvide');
 const pluginCompression = require('./pluginCompression');
 const pluginImageMinimizer = require('./pluginImageMinimizer');
 const pluginWatchIgnore = require('./pluginWatchIgnore');
+// const pluginHtmlInlineCss = require('./pluginHtmlInlineCss');
+// const pluginInlineSource = require('./pluginInlineSource').htmlWebpackInlineSourcePlugin;
 
 module.exports = {
     ...pluginCleanWebpack,
@@ -22,4 +24,6 @@ module.exports = {
     ...pluginCompression,
     ...pluginImageMinimizer,
     ...pluginWatchIgnore,
+    // ...pluginHtmlInlineCss,
+    // htmlWebpackInlineSourcePlugin: pluginInlineSource,
 };

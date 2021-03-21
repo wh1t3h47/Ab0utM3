@@ -8,10 +8,8 @@ module.exports = {
     },
     extends: [
         'plugin:@typescript-eslint/recommended',
-        /** Solves conflicts between eslint and prettier */
-        'prettier/@typescript-eslint',
-        /** Solves conflicts between react rules and prettier */
-        'prettier/react',
+        /** Solves conflicts between eslint, react-rules and prettier */
+        'prettier',
     ],
     parserOptions: {
         project: path.resolve(__dirname, './tsconfig.json'),

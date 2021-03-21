@@ -7,6 +7,7 @@ const config = {
 };
 
 const miniCssExtractPlugin = new MiniCssExtractPlugin(config);
+
 module.exports = {
     miniCssExtractPlugin,
 };

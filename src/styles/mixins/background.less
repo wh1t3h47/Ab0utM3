@@ -3,3 +3,9 @@
     background: @-background;
     background-size: cover;
 }
+
+.background-image-gradient-mixin(@-file-path, @-linear-gradient) {
+    @-background: ~"url(@{-file-path}) no-repeat center center";
+    background: @-linear-gradient, @-background;
+    background-size: cover;
+}

@@ -39,6 +39,8 @@ module.exports = {
         plugins.forkTsCheckerWebpackPlugin,
         plugins.esLintPlugin,
         plugins.copyPlugin,
+        // plugins.htmlInlineCssWebpackPlugin,
+        // plugins.htmlWebpackInlineSourcePlugin,
     ]),
     resolve: {
         alias: aliasItems,

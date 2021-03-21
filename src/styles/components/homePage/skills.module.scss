@@ -7,7 +7,8 @@
         position: absolute;
         @include sameWidthAndHeight(100%);
         display: grid;
-        background-color: $-book-color;
+        // Background color already set inline on index.html
+        // background-color: $-skills-color;
         top: $-second-modal-offset;
     }
 }

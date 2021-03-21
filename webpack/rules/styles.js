@@ -10,13 +10,14 @@ const {
     sassLoaderItems,
 } = require('./useLoaderRuleItems');
 
-/** css **/
+/** css */
 const cssRule = {
     test: /\.css$/,
     use: [miniCssExtractLoader, postCssLoader, resolveUrlLoader, cssLoader],
+    // use: [miniCssExtractLoader, cssLoader],
 };
 
-/** less **/
+/** less */
 const lessModulesRule = {
     test: /\.module.less$/,
     use: arrayFilterEmpty([
@@ -39,7 +40,7 @@ const lessRule = {
 
 const lessRules = [lessModulesRule, lessRule];
 
-/** sass **/
+/** sass */
 const sassModulesRule = {
     test: /\.module\.s([ca])ss$/,
     use: arrayFilterEmpty([

@@ -6,12 +6,14 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
             rel="stylesheet"
-        />
+        >
         <style>
-            body {
-                /* background color of code image */
-                background-color: #b9b2b6;
-            }
+        body {
+            /* Loads color before image because it's faster */
+            background-color: /*$-presentation-background-color*/#b9b2b6;
+            height: 300%;
+            background-image: linear-gradient(90deg, /*$-presentation-background-color*/#b9b2b6 100%, /*$-skills-color*/#1c1c1c 100%);
+        }
         </style>
     </head>
     <body>
