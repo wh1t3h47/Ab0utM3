@@ -2,7 +2,7 @@ import classNames from 'classnames';
 import React from 'react';
 
 type styleState = {
-    className: string;
+    classNames: string;
 };
 type backgroundProps = {
     fallbackStyles: string;
@@ -10,24 +10,31 @@ type backgroundProps = {
 };
 
 class LazyBackground extends React.PureComponent<backgroundProps, styleState> {
-    // readonly props: React.ComponentPropsWithoutRef<string>
+
     state = {
-        className: '',
+        classNames: '',
     };
 
     async componentDidMount(): Promise<void> {
         const lazyStyles = await this.props.lazyStyleSheet;
-        this.setState({className: lazyStyles.stylesBackground});
+        this.setState({
+                classNames: classNames([
+                    this.state.classNames,
+                    lazyStyles.stylesBackground
+                ]),
+            });
     }
 
     render(): JSX.Element {
-        console.log(this.state);
         const criticalStyles = this.props.fallbackStyles;
+        if (!this.state.classNames) {
+          this.setState({classNames: classNames([criticalStyles])});
+        }
 
         return (
             <div
-                className={classNames([criticalStyles, this.state.className])}
-            ></div>
+                className={this.state.classNames}
+            />
         );
     }
 }

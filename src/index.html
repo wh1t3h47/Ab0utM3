@@ -8,11 +8,18 @@
             rel="stylesheet"
         >
         <style>
+        html {
+            height: 300%;
+        }
         body {
             /* Loads color before image because it's faster */
+            margin: 0 0 0 0;
             background-color: /*$-presentation-background-color*/#b9b2b6;
-            height: 300%;
-            background-image: linear-gradient(90deg, /*$-presentation-background-color*/#b9b2b6 100%, /*$-skills-color*/#1c1c1c 100%);
+            overflow-x: hidden;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(to bottom, /*$-presentation-background-color*/#b9b2b6 33.3333%, /*$-skills-color*/#1c1c1c 33.8333%);
+            background-size: cover;
         }
         </style>
     </head>

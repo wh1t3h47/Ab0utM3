@@ -4,6 +4,7 @@
 
 .styles {
     &-background-fallback {
+        // background-color: $-skills-color;
         position: absolute;
         @include sameWidthAndHeight(100%);
         display: grid;

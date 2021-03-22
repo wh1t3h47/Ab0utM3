@@ -1,7 +1,9 @@
 @import "@styles/mixins/geometry.scss";
+@import "@styles/variables/colors.sass";
 
 .styles {
     &-background-fallback {
+        // background-color: $-presentation-background-color;
         position: absolute;
         @include sameWidthAndHeight(100%);
         display: flex;
