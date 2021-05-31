@@ -14,8 +14,10 @@ class Presentation extends React.PureComponent {
      * que sao mais leves ja foram carregados
      */
     async componentDidMount(): Promise<void> {
+
         /** Estilos que nao contem nenhum arquivo de imagem. */
         const criticalStyles = this.state.classNames;
+
         /** Carrega uma imagem de background leve de baixa resolucao para
          * que o usuario veja uma imagem de fundo mais rapido.
          */

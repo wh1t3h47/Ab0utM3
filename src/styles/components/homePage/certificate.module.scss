@@ -1,0 +1,14 @@
+@import "@styles/mixins/geometry.scss";
+@import "@styles/variables/colors.sass";
+@import "@styles/variables/sizes.sass";
+
+.styles {
+    &-background-fallback {
+        position: absolute;
+        @include sameWidthAndHeight(100%);
+        display: grid;
+        // Background color already set inline on index.html
+        // background-color: $-certificate-color;
+        top: $-third-modal-offset;
+    }
+}

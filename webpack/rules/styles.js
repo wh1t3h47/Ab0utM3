@@ -8,12 +8,13 @@ const {
     postCssLoader,
     resolveUrlLoader,
     sassLoaderItems,
+    typingsCssModulesLoader,
 } = require('./useLoaderRuleItems');
 
 /** css */
 const cssRule = {
     test: /\.css$/,
-    use: [miniCssExtractLoader, postCssLoader, resolveUrlLoader, cssLoader],
+    use: [typingsCssModulesLoader, miniCssExtractLoader, postCssLoader, resolveUrlLoader, cssLoader],
     // use: [miniCssExtractLoader, cssLoader],
 };
 
@@ -21,6 +22,7 @@ const cssRule = {
 const lessModulesRule = {
     test: /\.module.less$/,
     use: arrayFilterEmpty([
+        typingsCssModulesLoader,
         ...cssModulesSupportLoaderItems,
         postCssLoader,
         resolveUrlLoader,
@@ -44,6 +46,7 @@ const lessRules = [lessModulesRule, lessRule];
 const sassModulesRule = {
     test: /\.module\.s([ca])ss$/,
     use: arrayFilterEmpty([
+        typingsCssModulesLoader,
         ...cssModulesSupportLoaderItems,
         postCssLoader,
         resolveUrlLoader,

@@ -1,0 +1,16 @@
+@import "@styles/variables/paths.less";
+@import "@styles/variables/colors.less";
+@import "@styles/mixins/background.less";
+
+.styles {
+    &-background {
+        .background-image-mixin(@-certificate-image);
+        @-gradient: linear-gradient(
+            // 315deg, // top left
+            0deg,
+            fade(@-certificate-color, 5%),
+            fade(@-skills-color, 30%)
+            );
+        .background-image-gradient-mixin(@-certificate-image, @-gradient);
+    }
+}
