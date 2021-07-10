@@ -47,7 +47,7 @@ class Presentation extends React.PureComponent {
     render(): React.ReactNode {
         return (
             <div className={this.state.classNames}>
-                <ProfilePicture />
+                <ProfilePicture includesModal />
             </div>
         );
     }
