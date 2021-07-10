@@ -217,7 +217,7 @@
         "affectsGlobalScope": false
       },
       "../src/components/profilePicture/profilePicture.tsx": {
-        "version": "5c85a8e34d5a275d4ae60e44227e318c8dc2b1c01a14aa45ad8d268c7960d298",
+        "version": "0808fde39c083c46543cca850c8bdf2b76ba7623ed49ab4cb56a87e1c2418cb6",
         "signature": "4eddd4768ee31c5d6db588c2dc0327078f1277c69ec06d097c34a68e0528bd96",
         "affectsGlobalScope": false
       },
