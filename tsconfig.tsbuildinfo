@@ -186,9 +186,39 @@
         "signature": "f734dfc041b74af8abb124e6155b5213319a33cd2efbb31105491ee3a1c9ef0a",
         "affectsGlobalScope": false
       },
+      "../src/components/modal/modal.tsx": {
+        "version": "b85059fa10d24b0f904a9c426c9e4fa0cc2b0792ac0265abf60cd28b3a14c371",
+        "signature": "50a434d1ad30db37abac975ecef327f252a06efb4eed68afbf3ad5d6160eec8e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@fortawesome/fontawesome-common-types/index.d.ts": {
+        "version": "817d5aa402adb6203737088f8aa2fd5db6e6a0053187a4ed742215087b314210",
+        "signature": "817d5aa402adb6203737088f8aa2fd5db6e6a0053187a4ed742215087b314210",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@fortawesome/fontawesome-svg-core/index.d.ts": {
+        "version": "a822e999d9c1814859735e919c2bd2a11f7d3c8633ab6656215dc386684e07bc",
+        "signature": "a822e999d9c1814859735e919c2bd2a11f7d3c8633ab6656215dc386684e07bc",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@fortawesome/react-fontawesome/index.d.ts": {
+        "version": "786093bf8792839268d761ac49e641a7bba644744f9d6b5cd9d7e1f0b40efb13",
+        "signature": "786093bf8792839268d761ac49e641a7bba644744f9d6b5cd9d7e1f0b40efb13",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@fortawesome/free-solid-svg-icons/index.d.ts": {
+        "version": "dcfb5bbe5f43237024d7fed3b4d82f615ac512a274c9811affd818818d75b926",
+        "signature": "dcfb5bbe5f43237024d7fed3b4d82f615ac512a274c9811affd818818d75b926",
+        "affectsGlobalScope": false
+      },
+      "../src/components/modal/modalContentAboutMe.tsx": {
+        "version": "c39204033c1e870999188ececa69771cc5a7952f4f763def252792526cb3c5d1",
+        "signature": "ad88c360117d12a3744bc7d1e6da1977a8361a39821ad3fb73042e86ab029ed2",
+        "affectsGlobalScope": false
+      },
       "../src/components/profilePicture/profilePicture.tsx": {
-        "version": "52947f915ec48976f1d08acc48732dc3c8771198f4e441e28c7c143e458a6a64",
-        "signature": "ecc714f8e5ff29d3f187d1a9deac31ecf00a0a3c94cf8d48945fc2faeb2527d7",
+        "version": "5c85a8e34d5a275d4ae60e44227e318c8dc2b1c01a14aa45ad8d268c7960d298",
+        "signature": "4eddd4768ee31c5d6db588c2dc0327078f1277c69ec06d097c34a68e0528bd96",
         "affectsGlobalScope": false
       },
       "../src/styles/components/homePage/presentationBackgroundLowRes.module.less.d.ts": {
@@ -202,7 +232,7 @@
         "affectsGlobalScope": false
       },
       "../src/components/homePage/presentation.tsx": {
-        "version": "d7cc33f19107b1e2abf9d4f25a23b793f0489e0dec48becb2ae9c484c8a4f009",
+        "version": "4e5adc966228228bf84ada958a9653d7305c608828fb3e566c17500f3dbe0124",
         "signature": "918468e037e3ae88ff34621e3146562dea1de8c2e8b2752a31b8e3ce3fc6138d",
         "affectsGlobalScope": false
       },
@@ -729,6 +759,26 @@
       "configFilePath": "../tsconfig.json"
     },
     "referencedMap": {
+      "../node_modules/@fortawesome/fontawesome-common-types/index.d.ts": [
+        "../node_modules/@types/node/timers.d.ts",
+        "../node_modules/@types/node/timers/promises.d.ts"
+      ],
+      "../node_modules/@fortawesome/fontawesome-svg-core/index.d.ts": [
+        "../node_modules/@fortawesome/fontawesome-common-types/index.d.ts",
+        "../node_modules/@types/node/timers.d.ts",
+        "../node_modules/@types/node/timers/promises.d.ts"
+      ],
+      "../node_modules/@fortawesome/free-solid-svg-icons/index.d.ts": [
+        "../node_modules/@fortawesome/fontawesome-common-types/index.d.ts",
+        "../node_modules/@types/node/timers.d.ts",
+        "../node_modules/@types/node/timers/promises.d.ts"
+      ],
+      "../node_modules/@fortawesome/react-fontawesome/index.d.ts": [
+        "../node_modules/@fortawesome/fontawesome-svg-core/index.d.ts",
+        "../node_modules/@types/node/timers.d.ts",
+        "../node_modules/@types/node/timers/promises.d.ts",
+        "../node_modules/@types/react/index.d.ts"
+      ],
       "../node_modules/@types/eslint-scope/index.d.ts": [
         "../node_modules/@types/eslint/index.d.ts",
         "../node_modules/@types/estree/index.d.ts",
@@ -1492,11 +1542,28 @@
         "../src/styles/components/homePage/skills.module.scss.d.ts",
         "../src/styles/components/homePage/skillsBackground.module.less.d.ts"
       ],
+      "../src/components/modal/modal.tsx": [
+        "../node_modules/@types/node/timers.d.ts",
+        "../node_modules/@types/node/timers/promises.d.ts",
+        "../node_modules/@types/react/index.d.ts",
+        "../src/@types/declarations.d.ts"
+      ],
+      "../src/components/modal/modalContentAboutMe.tsx": [
+        "../node_modules/@fortawesome/free-solid-svg-icons/index.d.ts",
+        "../node_modules/@fortawesome/react-fontawesome/index.d.ts",
+        "../node_modules/@types/node/timers.d.ts",
+        "../node_modules/@types/node/timers/promises.d.ts",
+        "../node_modules/@types/react/index.d.ts",
+        "../src/@types/declarations.d.ts",
+        "../src/components/profilePicture/profilePicture.tsx"
+      ],
       "../src/components/profilePicture/profilePicture.tsx": [
         "../node_modules/@types/node/timers.d.ts",
         "../node_modules/@types/node/timers/promises.d.ts",
         "../node_modules/@types/react/index.d.ts",
         "../src/@types/declarations.d.ts",
+        "../src/components/modal/modal.tsx",
+        "../src/components/modal/modalContentAboutMe.tsx",
         "../src/styles/components/profilePicture/profilePictureContainer.module.scss.d.ts"
       ],
       "../src/index.tsx": [
@@ -1540,6 +1607,26 @@
       ]
     },
     "exportedModulesMap": {
+      "../node_modules/@fortawesome/fontawesome-common-types/index.d.ts": [
+        "../node_modules/@types/node/timers.d.ts",
+        "../node_modules/@types/node/timers/promises.d.ts"
+      ],
+      "../node_modules/@fortawesome/fontawesome-svg-core/index.d.ts": [
+        "../node_modules/@fortawesome/fontawesome-common-types/index.d.ts",
+        "../node_modules/@types/node/timers.d.ts",
+        "../node_modules/@types/node/timers/promises.d.ts"
+      ],
+      "../node_modules/@fortawesome/free-solid-svg-icons/index.d.ts": [
+        "../node_modules/@fortawesome/fontawesome-common-types/index.d.ts",
+        "../node_modules/@types/node/timers.d.ts",
+        "../node_modules/@types/node/timers/promises.d.ts"
+      ],
+      "../node_modules/@fortawesome/react-fontawesome/index.d.ts": [
+        "../node_modules/@fortawesome/fontawesome-svg-core/index.d.ts",
+        "../node_modules/@types/node/timers.d.ts",
+        "../node_modules/@types/node/timers/promises.d.ts",
+        "../node_modules/@types/react/index.d.ts"
+      ],
       "../node_modules/@types/eslint-scope/index.d.ts": [
         "../node_modules/@types/eslint/index.d.ts",
         "../node_modules/@types/estree/index.d.ts",
@@ -2271,6 +2358,14 @@
       "../src/components/homePage/skills.tsx": [
         "../node_modules/@types/react/index.d.ts"
       ],
+      "../src/components/modal/modal.tsx": [
+        "../node_modules/@types/react/index.d.ts",
+        "../src/@types/declarations.d.ts"
+      ],
+      "../src/components/modal/modalContentAboutMe.tsx": [
+        "../node_modules/@types/react/index.d.ts",
+        "../src/@types/declarations.d.ts"
+      ],
       "../src/components/profilePicture/profilePicture.tsx": [
         "../node_modules/@types/react/index.d.ts"
       ],
@@ -2308,6 +2403,10 @@
       ]
     },
     "semanticDiagnosticsPerFile": [
+      "../node_modules/@fortawesome/fontawesome-common-types/index.d.ts",
+      "../node_modules/@fortawesome/fontawesome-svg-core/index.d.ts",
+      "../node_modules/@fortawesome/free-solid-svg-icons/index.d.ts",
+      "../node_modules/@fortawesome/react-fontawesome/index.d.ts",
       "../node_modules/@types/eslint-scope/index.d.ts",
       "../node_modules/@types/eslint/helpers.d.ts",
       "../node_modules/@types/eslint/index.d.ts",
@@ -2434,6 +2533,8 @@
       "../src/components/homePage/presentation.tsx",
       "../src/components/homePage/projects.tsx",
       "../src/components/homePage/skills.tsx",
+      "../src/components/modal/modal.tsx",
+      "../src/components/modal/modalContentAboutMe.tsx",
       "../src/components/profilePicture/profilePicture.tsx",
       "../src/index.tsx",
       "../src/styles/components/homePage/certificate.module.scss.d.ts",
