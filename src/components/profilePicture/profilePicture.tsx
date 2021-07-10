@@ -76,7 +76,11 @@ class ProfilePicture extends React.PureComponent<propsType> {
                     style={this.props.includesModal? { cursor: 'pointer' }: {}}
                 />
             </div>
-            { includesModal && <a style={{ background: 'rgba(255, 255, 255, 0.5)', cursor: 'pointer', marginTop: '5px' }}
+            { includesModal && <a style={{ background: 'rgba(255, 255, 255, 0.7)',
+              cursor: 'pointer',
+              marginTop: '5px',
+              borderRadius: '8px',
+            }}
             onClick={
                 () => {
                     (modalRef.current || {show: () => undefined}).show();
