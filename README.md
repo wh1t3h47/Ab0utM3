@@ -7,6 +7,7 @@
   <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
   <img alt="SASS" src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"/>
   <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img alt="Github dependabot" src="https://camo.githubusercontent.com/082dac1bf6c231aa5a3836d300de8b46ee8c6b0ac9465cfc6aed17b6a0cc5662/68747470733a2f2f73332e65752d776573742d322e616d617a6f6e6177732e636f6d2f646570656e6461626f742d696d616765732f6c6f676f2d776974682d6e616d652d686f72697a6f6e74616c2e7376673f7635" height="28" />
   <img alt="eslint" src="https://badges.aleen42.com/src/eslint.svg" height="28"/> <img alt="webpack" src="https://badges.aleen42.com/src/webpack.svg" height="28" />
   <img alt="Shell Script" src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
   <img alt="Markdown" src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white"/>
