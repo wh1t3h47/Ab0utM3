@@ -12,7 +12,15 @@
   <img alt="Markdown" src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white"/>
 </div>
 
+## About the project:
+This porfolio features a fine webpack 5 and React template out of the box, I urged to get it working because create-react-app didn't support webpack 5 at the time, I tried to get around it by ejecting, but found myself that it was easier to start from scratch to learn it
 
-## TODO
+It has a SEO-first approach, in which I try to load the critical styles first (inline or by importing) and then apply a patch with the styles that are not critical. Images have low-resolution fallbacks in order to have a nice FCP (First Contentful Paint). The entire loading process is designed to be as smooth as possible, even under poor internet conditions.
 
+I worked a lot on boilerplate, some features are still missing, it is in WIP state and lighthouse SEO dropped a little (it's easy to fix)
+
+## SEO
+<a href="#seo"> <img src="https://github.com/wh1t3h47/Ab0utM3/raw/master/Screenshot%20from%202021-06-09%2014-48-29.png" alt="My SEO grade (96), displays a lighthouse audit" /> </a>
+
+## Todo
 - [ ] [Serve next gen pics](https://jmuzsik.medium.com/how-to-setup-next-gen-images-for-react-hosted-on-amazon-s3-7ba2d2caad21)
