@@ -72,12 +72,18 @@
             flex-direction: column;
             align-items: center;
 
+            &>* {
+                box-shadow: $-night-blue 0.1px 0.2px 0.1px;
+            }
+
             &>.picture-container {
                 overflow: hidden;
 
                 img {
                     max-height: unset !important;
                     max-width: unset !important;
+                    width: 225px;
+                    height: 215px;
                 }
             }
         }
